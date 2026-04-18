@@ -1,4 +1,5 @@
 // 🚀 COMPLETE AI BACKEND (USING GROQ API - FAST & FREE TIER FRIENDLY)
+// 🚀 COMPLETE AI BACKEND (USING GROQ API - FAST & FREE TIER FRIENDL// 🚀 COMPLETE AI BACKEND (USING GROQ API - FAST & FREE TIER FRIENDLY)
 
 const express = require("express");
 const cors = require("cors");
@@ -8,7 +9,7 @@ const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 require("dotenv").config();
 
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = require("node-fetch");
 
 const app = express();
 
